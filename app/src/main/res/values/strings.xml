@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FireApp</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">2845775672160854</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <string name="facebook_app_id">2845775672160854</string>
+    <string name="fb_login_protocol_scheme">fb2845775672160854</string>
+</resources>

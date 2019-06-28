@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editTextSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arib" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/editTextSender"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/editTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSender"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/editTextTime"
+        android:layout_alignParentEnd="true"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23/34/54" />
+
+</RelativeLayout>
